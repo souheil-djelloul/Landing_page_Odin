@@ -1,0 +1,31 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+/* the start of the header CSS code */
+header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    margin: 0;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/*the end of the CSS code for the header */
