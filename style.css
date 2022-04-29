@@ -14,6 +14,7 @@ header{
     margin: 0;
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bolder;
 }
 
 header ul {
@@ -43,10 +44,11 @@ header a {
     width: 400px;
 }
 
-.sign_up h1{
+.sign_up_text h1{
     margin: 0;
     font-size: 48px;
     color: #F9FAF8;
+    text-decoration: none;
 }
 .sign_up p{
     color: #E5E7EB;
@@ -65,3 +67,62 @@ header a {
 }
 
 /* the end of the sign up field */
+
+/* the start of the info field */
+
+.info_field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap:30px;
+}
+
+.info_field h1{
+    margin: 0;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+
+.info_slides{
+    display: flex;
+    gap: 40px;
+}
+
+.info .container {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+
+.info p{
+    width: 150px;
+    text-align: center;
+}
+
+/* the end of the info field */
+
+/* the start of the quote field */
+
+.quote_field{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote_field p{
+    margin:0;
+    width: 500px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote_person{
+    text-align: right;
+    color: #3882f6;
+}
