@@ -169,3 +169,18 @@ header a {
 /* the end of the CTA field */
 
 /* the start of the footer field */
+
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 96.5%;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    color: #F9FAF8;
+}
