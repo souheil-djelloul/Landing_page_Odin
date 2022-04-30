@@ -124,5 +124,48 @@ header a {
 
 .quote_person{
     text-align: right;
-    color: #3882f6;
+    font-weight: bolder;
 }
+
+/* the end of the quote field */
+
+/* the start of the CTA field */
+
+.cot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cot .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    width: 900px;
+    padding: 30px 0;
+    border-radius: 8px;
+}
+
+.cot p span{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold
+}
+.cot p{
+    color: #F9FAF8;
+}
+.cot button{
+    width: 120px;
+    height: 30px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: solid 2px #F9FAF8;
+    border-radius: 7px;
+}
+
+/* the end of the CTA field */
+
+/* the start of the footer field */
